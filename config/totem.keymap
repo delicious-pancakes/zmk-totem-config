@@ -62,7 +62,7 @@
                &kp Q  &kp G  &kp M  &kp L  &kp W        &kp Y  &kp F  &kp U      &kp B    &kp SEMI
                &kp D  &kp S  &kp T  &kp N  &kp R        &kp I  &kp A  &kp E      &kp O    &kp H
 &kp LSHIFT     &kp Z  &kp X  &kp C  &kp V  &kp J        &kp K  &kp P  &kp COMMA  &kp DOT  &kp SLASH  &kp RSHIFT
-                       &kp BSPC  &kp SPACE  &mo NAV     &mo NAV  &kp SPACE  &kp ENTER
+                       &kp BSPC  &kp SPACE  &mo NAV     &kp LCTRL  &kp SPACE  &kp ENTER
             >;
         };
 
@@ -86,9 +86,9 @@
 
             bindings = <
             &kp ESC  &kp GRAVE  &kp UP    &kp EQUAL  &kp LPAR    &kp RPAR  &kp N7  &kp N8  &kp N9  &kp F4
-            &kp TAB  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LBRC    &kp RBRC  &kp N4  &kp N5  &kp N6  &kp RALT
-&trans      &kp DEL  &kp END    &kp PG_UP &kp PG_DN  &trans      &kp N0    &kp N1  &kp N2  &kp N3  &trans  &kp RSHIFT
-                                &kp LGUI  &kp BSPC   &to ONEHAND      &kp LCTRL    &kp SPACE  &kp ENTER
+            &kp TAB  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LBRC    &kp RBRC  &kp N4  &kp N5  &kp N6  &kp APOS
+&kp LSHIFT  &kp DEL  &kp END    &kp PG_UP &kp PG_DN  &trans      &kp N0    &kp N1  &kp N2  &kp N3  &trans  &kp LSHIFT
+                                &kp LGUI  &kp SPACE  &to BASE    &to ONEHAND  &kp SPACE  &kp ENTER
             >;
         };
 
@@ -105,16 +105,16 @@
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
             //             ┃    TAB    ┃     6     ┃     5     ┃     4     ┃     =     ┃   ┃     F     ┃     A     ┃     S     ┃     D     ┃   LCTRL   ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃  LSHIFT   ┃     0     ┃     3     ┃     2     ┃     1     ┃           ┃   ┃     B     ┃     Z     ┃     X     ┃     C     ┃     V     ┃   LSHIFT  ┃
+            // ┃   SHIFT   ┃     0     ┃     3     ┃     2     ┃     1     ┃           ┃   ┃     B     ┃     Z     ┃     X     ┃     C     ┃     V     ┃   LSHIFT  ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             //                                     ┃    WIN    ┃   SPACE   ┃    ESC    ┃   ┃ MO(1HAND2)┃   SPACE   ┃   ENTER   ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp GRAVE  &kp N9  &kp N8  &kp N7  &kp MINUS       &kp R  &kp E  &kp W  &kp Q  &kp APOS
-            &kp TAB    &kp N6  &kp N5  &kp N4  &kp EQUAL       &kp F  &kp A  &kp S  &kp D  &kp KP_PLUS
-&trans      &kp N0     &kp N3  &kp N2  &kp N1  &trans          &kp B  &kp Z  &kp X  &kp C  &kp V  &kp LSHIFT
-                               &kp LGUI  &kp BSPC  &to NAV      &mo ONEHAND2  &kp SPACE  &kp ENTER
+            &kp GRAVE  &kp N9  &kp N8  &kp N7  &kp MINUS       &kp R  &kp E  &kp W  &kp Q  &kp TAB
+            &kp TAB    &kp N6  &kp N5  &kp N4  &kp EQUAL       &kp F  &kp A  &kp S  &kp D  &kp LCTRL
+&kp LSHIFT  &kp N0     &kp N3  &kp N2  &kp N1  &trans          &kp B  &kp Z  &kp X  &kp C  &kp V  &kp LSHIFT
+                               &kp LGUI  &kp SPACE  &kp ESC    &mo ONEHAND2  &kp SPACE  &kp ENTER
             >;
         };
 
@@ -137,10 +137,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp R      &kp E  &kp W  &kp Q  &kp APOS         &kp N1    &kp N2    &kp N3   &kp N4     &kp N5
-            &kp F      &kp A  &kp S  &kp D  &kp KP_PLUS      &kp N6    &kp N7    &kp N8   &kp N9     &kp N0
-&trans      &kp B      &kp Z  &kp X  &kp C  &kp V            &kp SEMI  &kp HOME  &kp END  &kp PG_UP  &kp PG_DN  &kp LSHIFT
-                              &trans  &kp SPACE  &kp ENTER   &trans    &kp SPACE  &kp ENTER
+            &kp TAB    &kp Q  &kp W  &kp E  &kp R         &kp N1    &kp N2   &kp N3     &kp N4     &kp N5
+            &kp LCTRL  &kp A  &kp S  &kp D  &kp F         &kp N6    &kp N7   &kp N8     &kp N9     &kp N0
+&kp LSHIFT  &kp Z      &kp Z  &kp X  &kp C  &kp V         &kp HOME  &kp END  &kp PG_UP  &kp PG_DN  &trans  &kp LSHIFT
+                              &kp LGUI  &kp SPACE  &to BASE   &kp ESC  &kp SPACE  &kp ENTER
             >;
         };
     };
