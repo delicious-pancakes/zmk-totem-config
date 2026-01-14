@@ -81,14 +81,14 @@
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
             // ┃  LSHIFT   ┃    TAB    ┃   HOME    ┃    END    ┃   PGUP    ┃   PGDN    ┃   ┃     0     ┃     1     ┃     2     ┃     3     ┃    TAB    ┃   LSHIFT  ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃    WIN    ┃   CTRL    ┃  TO BASE  ┃   ┃ TO 1HAND  ┃    ALT    ┃   ENTER   ┃
+            //                                     ┃    WIN    ┃   CTRL    ┃           ┃   ┃ TO 1HAND  ┃    ALT    ┃   ENTER   ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
             &kp ESC  &kp GRAVE  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp N7  &kp N8  &kp N9  &kp F4
             &kp DEL  &kp LEFT   &kp DOWN  &kp RIGHT  &kp MINUS   &kp GRAVE &kp N4  &kp N5  &kp N6  &kp APOS
 &kp LSHIFT  &kp TAB  &kp HOME   &kp END   &kp PG_UP  &kp PG_DN   &kp N0    &kp N1  &kp N2  &kp N3  &kp TAB  &kp LSHIFT
-                                &kp LGUI  &kp LCTRL  &to BASE    &to ONEHAND  &kp LALT  &kp ENTER
+                                &kp LGUI  &kp LCTRL  &trans      &to ONEHAND  &kp LALT  &kp ENTER
             >;
         };
 

@@ -333,8 +333,7 @@
       <text x="250" y="238" text-anchor="middle" fill="#0a0a14" font-family="system-ui, sans-serif" font-size="10">CTRL</text>
     </g>
     <g filter="url(#keyShadow)">
-      <rect x="280" y="210" width="50" height="45" rx="6" fill="url(#orangeGrad)" stroke="#ff8800" stroke-width="1"/>
-      <text x="305" y="238" text-anchor="middle" fill="#0a0a14" font-family="system-ui, sans-serif" font-size="9">BASE</text>
+      <rect x="280" y="210" width="50" height="45" rx="6" fill="url(#thumbGrad)" stroke="#00d4ff" stroke-width="1"/>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="470" y="210" width="50" height="45" rx="6" fill="url(#orangeGrad)" stroke="#ff8800" stroke-width="1"/>
