@@ -1,21 +1,13 @@
 #!/bin/bash
-# Generate SVG and JPG layout visualization from ZMK keymap
-# Usage: ./generate_layout_svg.sh [keymap_file] [output_base]
-# Example: ./generate_layout_svg.sh config/totem.keymap totem_layout
-#          Generates totem_layout.svg and totem_layout.jpg
+# Generate SVG layout visualization from ZMK keymap
+# Usage: ./generate_layout_svg.sh config/totem.keymap > totem_layout.svg
 
 KEYMAP_FILE="${1:-config/totem.keymap}"
-OUTPUT_BASE="${2:-totem_layout}"
-SVG_FILE="${OUTPUT_BASE}.svg"
-JPG_FILE="${OUTPUT_BASE}.jpg"
 
 if [[ ! -f "$KEYMAP_FILE" ]]; then
     echo "Error: Keymap file not found: $KEYMAP_FILE" >&2
     exit 1
 fi
-
-# Generate SVG
-echo "Generating ${SVG_FILE}..." >&2
 
 awk '
 BEGIN {
@@ -352,9 +344,4 @@ function escape_xml(str) {
     gsub(/>/, "\\&gt;", str)
     return str
 }
-' "$KEYMAP_FILE" > "$SVG_FILE"
-
-echo "Generating ${JPG_FILE}..." >&2
-convert -density 150 -background '#0a0a14' "$SVG_FILE" "$JPG_FILE"
-
-echo "Done: ${SVG_FILE}, ${JPG_FILE}" >&2
+' "$KEYMAP_FILE"
