@@ -190,16 +190,16 @@ function print_svg_header() {
     print "      <stop offset=\"100%\" style=\"stop-color:#1a1a24\"/>"
     print "    </linearGradient>"
     print "    <linearGradient id=\"thumbGrad\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">"
-    print "      <stop offset=\"0%\" style=\"stop-color:#00ffff\"/>"
-    print "      <stop offset=\"100%\" style=\"stop-color:#00d4ff\"/>"
+    print "      <stop offset=\"0%\" style=\"stop-color:#00e6e6\"/>"
+    print "      <stop offset=\"100%\" style=\"stop-color:#00e6e6\"/>"
     print "    </linearGradient>"
     print "    <linearGradient id=\"layerGrad\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">"
-    print "      <stop offset=\"0%\" style=\"stop-color:#ff40aa\"/>"
-    print "      <stop offset=\"100%\" style=\"stop-color:#ff0080\"/>"
+    print "      <stop offset=\"0%\" style=\"stop-color:#ff2090\"/>"
+    print "      <stop offset=\"100%\" style=\"stop-color:#ff2090\"/>"
     print "    </linearGradient>"
     print "    <linearGradient id=\"orangeGrad\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">"
-    print "      <stop offset=\"0%\" style=\"stop-color:#ffaa33\"/>"
-    print "      <stop offset=\"100%\" style=\"stop-color:#ff8800\"/>"
+    print "      <stop offset=\"0%\" style=\"stop-color:#ff9922\"/>"
+    print "      <stop offset=\"100%\" style=\"stop-color:#ff9922\"/>"
     print "    </linearGradient>"
     print "    <filter id=\"keyShadow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">"
     print "      <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"3\" flood-color=\"#ff0080\" flood-opacity=\"0.3\"/>"
@@ -320,19 +320,19 @@ function render_thumb_key(layer, key_idx, x, y, w, h) {
     label = get_label(keycode)
     key_type = get_key_type(keycode)
 
-    fill = "url(#thumbGrad)"
-    stroke = "#00d4ff"
+    fill = "#00d4d4"
+    stroke = "#00ffff"
     text_fill = "#0a0a14"
     font_size = 10
     text_y = y + 28
 
     if (key_type == "layer_mo") {
-        fill = "url(#layerGrad)"
-        stroke = "#ff0080"
+        fill = "#dd1080"
+        stroke = "#ff40aa"
         font_size = 9
     } else if (key_type == "layer_to") {
-        fill = "url(#orangeGrad)"
-        stroke = "#ff8800"
+        fill = "#dd7700"
+        stroke = "#ffaa33"
         font_size = 9
     }
 
