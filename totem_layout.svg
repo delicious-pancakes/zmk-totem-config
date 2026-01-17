@@ -640,7 +640,7 @@
     </g>
     <g filter="url(#keyShadow)">
       <rect x="225" y="210" width="50" height="45" rx="6" fill="#00d4d4" stroke="#00ffff" stroke-width="1"/>
-      <text x="250" y="238" text-anchor="middle" fill="#0a0a14" font-family="system-ui, sans-serif" font-size="10">SPACE</text>
+      <text x="250" y="238" text-anchor="middle" fill="#0a0a14" font-family="system-ui, sans-serif" font-size="10">F10</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="280" y="210" width="50" height="45" rx="6" fill="#dd7700" stroke="#ffaa33" stroke-width="1"/>
