@@ -491,7 +491,8 @@
       <rect x="280" y="210" width="50" height="45" rx="6" fill="#00d4d4" stroke="#00ffff" stroke-width="1"/>
     </g>
     <g filter="url(#keyShadow)">
-      <rect x="470" y="210" width="50" height="45" rx="6" fill="#00d4d4" stroke="#00ffff" stroke-width="1"/>
+      <rect x="470" y="210" width="50" height="45" rx="6" fill="#00cc00" stroke="#39ff14" stroke-width="1"/>
+      <text x="495" y="238" text-anchor="middle" fill="#0a0a14" font-family="system-ui, sans-serif" font-size="9">1HAND2</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="525" y="210" width="50" height="45" rx="6" fill="#00d4d4" stroke="#00ffff" stroke-width="1"/>

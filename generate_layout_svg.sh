@@ -252,6 +252,11 @@ function get_label(keycode) {
         gsub(/^&tog /, "", layer_ref)
         return get_layer_name(layer_ref)
     }
+    if (keycode ~ /^&sl /) {
+        layer_ref = keycode
+        gsub(/^&sl /, "", layer_ref)
+        return get_layer_name(layer_ref)
+    }
     if (keycode ~ /^&lt /) {
         n = split(keycode, parts, " ")
         if (n >= 3 && parts[3] != "") {
@@ -271,6 +276,7 @@ function get_label(keycode) {
 
 function get_key_type(keycode) {
     if (keycode ~ /^&mo /) return "layer_mo"
+    if (keycode ~ /^&sl /) return "layer_sl"
     if (keycode ~ /^&to /) return "layer_to"
     if (keycode ~ /^&tog /) return "layer_to"
     if (keycode == "&trans" || keycode == "&none") return "trans"
@@ -329,6 +335,10 @@ function render_thumb_key(layer, key_idx, x, y, w, h) {
     if (key_type == "layer_mo") {
         fill = "#dd1080"
         stroke = "#ff40aa"
+        font_size = 9
+    } else if (key_type == "layer_sl") {
+        fill = "#00cc00"
+        stroke = "#39ff14"
         font_size = 9
     } else if (key_type == "layer_to") {
         fill = "#dd7700"
