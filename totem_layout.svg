@@ -530,23 +530,23 @@
     </g>
     <g filter="url(#keyShadow)">
       <rect x="470" y="40" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="495" y="72" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">1</text>
+      <text x="495" y="68" text-anchor="middle" fill="#9999b3" font-family="system-ui, sans-serif" font-size="10">HOME</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="525" y="40" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="550" y="72" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">2</text>
+      <text x="550" y="72" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">1</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="580" y="40" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="605" y="72" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">3</text>
+      <text x="605" y="72" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">2</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="635" y="40" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="660" y="72" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">4</text>
+      <text x="660" y="72" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">3</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="690" y="40" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="715" y="72" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">5</text>
+      <text x="715" y="68" text-anchor="middle" fill="#9999b3" font-family="system-ui, sans-serif" font-size="10">TAB</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="60" y="95" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
@@ -570,23 +570,22 @@
     </g>
     <g filter="url(#keyShadow)">
       <rect x="470" y="95" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="495" y="127" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">6</text>
+      <text x="495" y="123" text-anchor="middle" fill="#9999b3" font-family="system-ui, sans-serif" font-size="10">END</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="525" y="95" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="550" y="127" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">7</text>
+      <text x="550" y="127" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">4</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="580" y="95" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="605" y="127" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">8</text>
+      <text x="605" y="127" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">5</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="635" y="95" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="660" y="127" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">9</text>
+      <text x="660" y="127" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">6</text>
     </g>
     <g filter="url(#keyShadow)">
-      <rect x="690" y="95" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="715" y="127" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">0</text>
+      <rect x="690" y="95" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1" opacity="0.5"/>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="5" y="150" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
@@ -614,27 +613,27 @@
     </g>
     <g filter="url(#keyShadow)">
       <rect x="470" y="150" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="495" y="178" text-anchor="middle" fill="#9999b3" font-family="system-ui, sans-serif" font-size="10">HOME</text>
+      <text x="495" y="178" text-anchor="middle" fill="#9999b3" font-family="system-ui, sans-serif" font-size="10">PGUP</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="525" y="150" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="550" y="178" text-anchor="middle" fill="#9999b3" font-family="system-ui, sans-serif" font-size="10">END</text>
+      <text x="550" y="182" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">7</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="580" y="150" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="605" y="178" text-anchor="middle" fill="#9999b3" font-family="system-ui, sans-serif" font-size="10">PGUP</text>
+      <text x="605" y="182" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">8</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="635" y="150" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="660" y="178" text-anchor="middle" fill="#9999b3" font-family="system-ui, sans-serif" font-size="10">PGDN</text>
+      <text x="660" y="182" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">9</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="690" y="150" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="715" y="178" text-anchor="middle" fill="#9999b3" font-family="system-ui, sans-serif" font-size="10">ALT</text>
+      <text x="715" y="182" text-anchor="middle" fill="#e6b3cc" font-family="monospace" font-size="16" font-weight="bold">0</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="745" y="150" width="50" height="50" rx="6" fill="url(#keyGrad)" stroke="#3d3d4d" stroke-width="1"/>
-      <text x="770" y="178" text-anchor="middle" fill="#9999b3" font-family="system-ui, sans-serif" font-size="10">SHIFT</text>
+      <text x="770" y="178" text-anchor="middle" fill="#9999b3" font-family="system-ui, sans-serif" font-size="10">PGDN</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="170" y="210" width="50" height="45" rx="6" fill="#00d4d4" stroke="#00ffff" stroke-width="1"/>
@@ -653,7 +652,7 @@
     </g>
     <g filter="url(#keyShadow)">
       <rect x="525" y="210" width="50" height="45" rx="6" fill="#00d4d4" stroke="#00ffff" stroke-width="1"/>
-      <text x="550" y="238" text-anchor="middle" fill="#0a0a14" font-family="system-ui, sans-serif" font-size="10">ESC</text>
+      <text x="550" y="238" text-anchor="middle" fill="#0a0a14" font-family="system-ui, sans-serif" font-size="10">SPACE</text>
     </g>
     <g filter="url(#keyShadow)">
       <rect x="580" y="210" width="50" height="45" rx="6" fill="#00d4d4" stroke="#00ffff" stroke-width="1"/>

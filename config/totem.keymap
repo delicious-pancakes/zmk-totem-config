@@ -127,20 +127,20 @@
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃    TAB    ┃     Q     ┃     W     ┃     E     ┃     R     ┃   ┃     1     ┃     2     ┃     3     ┃     4     ┃     5     ┃
+            //             ┃    TAB    ┃     Q     ┃     W     ┃     E     ┃     R     ┃   ┃   HOME    ┃     1     ┃     2     ┃     3     ┃    TAB    ┃
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-            //             ┃   LCTRL   ┃     A     ┃     S     ┃     D     ┃     F     ┃   ┃     6     ┃     7     ┃     8     ┃     9     ┃     0     ┃
+            //             ┃   LCTRL   ┃     A     ┃     S     ┃     D     ┃     F     ┃   ┃    END    ┃     4     ┃     5     ┃     6     ┃           ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃  LSHIFT   ┃     Z     ┃     Z     ┃     X     ┃     C     ┃     V     ┃   ┃   HOME    ┃    END    ┃   PGUP    ┃   PGDN    ┃    ALT    ┃   LSHIFT  ┃
+            // ┃  LSHIFT   ┃     Z     ┃     Z     ┃     X     ┃     C     ┃     V     ┃   ┃   PGUP    ┃     7     ┃     8     ┃     9     ┃     0     ┃   PGDN    ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃    WIN    ┃   SPACE   ┃  TO BASE  ┃   ┃           ┃    ESC    ┃   ENTER   ┃
+            //                                     ┃    WIN    ┃   SPACE   ┃  TO BASE  ┃   ┃           ┃   SPACE   ┃   ENTER   ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp TAB    &kp Q  &kp W  &kp E  &kp R         &kp N1    &kp N2   &kp N3     &kp N4     &kp N5
-            &kp LCTRL  &kp A  &kp S  &kp D  &kp F         &kp N6    &kp N7   &kp N8     &kp N9     &kp N0
-&kp LSHIFT  &kp Z      &kp Z  &kp X  &kp C  &kp V         &kp HOME  &kp END  &kp PG_UP  &kp PG_DN  &kp LALT  &kp LSHIFT
-                              &kp LGUI  &kp SPACE  &to BASE   &trans  &kp ESC  &kp ENTER
+            &kp TAB    &kp Q  &kp W  &kp E  &kp R         &kp HOME   &kp N1  &kp N2  &kp N3  &kp TAB
+            &kp LCTRL  &kp A  &kp S  &kp D  &kp F         &kp END    &kp N4  &kp N5  &kp N6  &trans
+&kp LSHIFT  &kp Z      &kp Z  &kp X  &kp C  &kp V         &kp PG_UP  &kp N7  &kp N8  &kp N9  &kp N0  &kp PG_DN
+                              &kp LGUI  &kp SPACE  &to BASE   &trans  &kp SPACE  &kp ENTER
             >;
         };
     };
