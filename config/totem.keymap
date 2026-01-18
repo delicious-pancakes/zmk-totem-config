@@ -75,19 +75,19 @@
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃    ESC    ┃     `     ┃     UP    ┃     =     ┃     {     ┃   ┃     }     ┃     7     ┃     8     ┃     9     ┃    WIN    ┃
+            //             ┃    ESC    ┃     `     ┃     UP    ┃     =     ┃     {     ┃   ┃     }     ┃     7     ┃     8     ┃     9     ┃    TAB    ┃
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-            //             ┃    DEL    ┃   LEFT    ┃    DOWN   ┃   RIGHT   ┃     -     ┃   ┃     `     ┃     4     ┃     5     ┃     6     ┃    TAB    ┃
+            //             ┃    DEL    ┃   LEFT    ┃    DOWN   ┃   RIGHT   ┃     -     ┃   ┃     `     ┃     4     ┃     5     ┃     6     ┃     '     ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃  LSHIFT   ┃           ┃   HOME    ┃    END    ┃   PGUP    ┃   PGDN    ┃   ┃     0     ┃     1     ┃     2     ┃     3     ┃    F4     ┃   LSHIFT  ┃
+            // ┃  LSHIFT   ┃           ┃   HOME    ┃    END    ┃   PGUP    ┃   PGDN    ┃   ┃     0     ┃     1     ┃     2     ┃     3     ┃    WIN    ┃   LSHIFT  ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             //                                     ┃   BSPC    ┃   CTRL    ┃           ┃   ┃ TO 1HAND  ┃    ALT    ┃   ENTER   ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp ESC  &kp GRAVE  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp N7  &kp N8  &kp N9  &kp LGUI
-            &kp DEL  &kp LEFT   &kp DOWN  &kp RIGHT  &kp MINUS   &kp GRAVE &kp N4  &kp N5  &kp N6  &kp TAB
-&kp LSHIFT  &trans   &kp HOME   &kp END   &kp PG_UP  &kp PG_DN   &kp N0    &kp N1  &kp N2  &kp N3  &kp F4   &kp LSHIFT
+            &kp ESC  &kp GRAVE  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp N7  &kp N8  &kp N9  &kp TAB
+            &kp DEL  &kp LEFT   &kp DOWN  &kp RIGHT  &kp MINUS   &kp GRAVE &kp N4  &kp N5  &kp N6  &kp APOS
+&kp LSHIFT  &trans   &kp HOME   &kp END   &kp PG_UP  &kp PG_DN   &kp N0    &kp N1  &kp N2  &kp N3  &kp LGUI   &kp LSHIFT
                                 &kp BSPC  &kp LCTRL  &trans      &to ONEHAND  &kp LALT  &kp ENTER
             >;
         };
