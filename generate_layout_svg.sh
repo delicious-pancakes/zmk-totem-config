@@ -55,7 +55,7 @@ function init_labels() {
     labels["&kp GRAVE"] = "`"
     labels["&kp EQUAL"] = "="
     labels["&kp MINUS"] = "-"
-    labels["&kp APOS"] = "\047"
+    labels["&kp APOS"] = "QUOT"
     labels["&kp LPAR"] = "("
     labels["&kp RPAR"] = ")"
     labels["&kp LBRC"] = "{"
