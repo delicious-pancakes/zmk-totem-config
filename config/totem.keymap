@@ -75,19 +75,19 @@
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃    ESC    ┃     `     ┃     UP    ┃     =     ┃     [     ┃   ┃     ]     ┃     7     ┃     8     ┃     9     ┃    TAB    ┃
+            //             ┃    TAB    ┃     `     ┃     UP    ┃     =     ┃     [     ┃   ┃     ]     ┃     7     ┃     8     ┃     9     ┃    TAB    ┃
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
             //             ┃    DEL    ┃   LEFT    ┃    DOWN   ┃   RIGHT   ┃     -     ┃   ┃     `     ┃     4     ┃     5     ┃     6     ┃     '     ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃  LSHIFT   ┃           ┃   HOME    ┃    END    ┃   PGUP    ┃   PGDN    ┃   ┃     0     ┃     1     ┃     2     ┃     3     ┃    ESC    ┃   LSHIFT  ┃
+            // ┃  LSHIFT   ┃    ESC    ┃   HOME    ┃    END    ┃   PGUP    ┃   PGDN    ┃   ┃     0     ┃     1     ┃     2     ┃     3     ┃    ESC    ┃   LSHIFT  ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             //                                     ┃   BSPC    ┃   CTRL    ┃           ┃   ┃ TO 1HAND  ┃    ALT    ┃    WIN    ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp ESC  &kp GRAVE  &kp UP    &kp EQUAL  &kp LBKT    &kp RBKT  &kp N7  &kp N8  &kp N9  &kp TAB
+            &kp TAB  &kp GRAVE  &kp UP    &kp EQUAL  &kp LBKT    &kp RBKT  &kp N7  &kp N8  &kp N9  &kp TAB
             &kp DEL  &kp LEFT   &kp DOWN  &kp RIGHT  &kp MINUS   &kp GRAVE &kp N4  &kp N5  &kp N6  &kp APOS
-&kp LSHIFT  &trans   &kp HOME   &kp END   &kp PG_UP  &kp PG_DN   &kp N0    &kp N1  &kp N2  &kp N3  &kp ESC    &kp LSHIFT
+&kp LSHIFT  &kp ESC  &kp HOME   &kp END   &kp PG_UP  &kp PG_DN   &kp N0    &kp N1  &kp N2  &kp N3  &kp ESC    &kp LSHIFT
                                 &kp BSPC  &kp LCTRL  &trans      &to ONEHAND  &kp LALT  &kp LGUI
             >;
         };
@@ -107,14 +107,14 @@
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
             // ┃   SHIFT   ┃     0     ┃     3     ┃     2     ┃     1     ┃           ┃   ┃     B     ┃     Z     ┃     X     ┃     C     ┃     V     ┃   LSHIFT  ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃    WIN    ┃   SPACE   ┃    ESC    ┃   ┃ SL(1HAND2)┃   SPACE   ┃   ENTER   ┃
+            //                                     ┃    WIN    ┃   SPACE   ┃    ESC    ┃   ┃ MO(1HAND2)┃   SPACE   ┃   ENTER   ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
             &kp TAB    &kp GRAVE  &kp UP    &kp EQUAL  &kp LBRC    &kp R  &kp E  &kp W  &kp Q  &kp TAB
             &kp DEL    &kp LEFT   &kp DOWN  &kp RIGHT  &kp MINUS   &kp F  &kp A  &kp S  &kp D  &kp LCTRL
 &kp LSHIFT  &kp ESC    &kp HOME   &kp END   &kp PG_UP  &kp PG_DN   &kp B  &kp Z  &kp X  &kp C  &kp V  &kp LSHIFT
-                                  &kp LGUI  &kp LCTRL  &trans      &sl ONEHAND2  &kp SPACE  &kp LALT
+                                  &kp LGUI  &kp LCTRL  &trans      &mo ONEHAND2  &kp SPACE  &kp LALT
             >;
         };
 
@@ -133,14 +133,14 @@
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
             // ┃   SHIFT   ┃    ESC    ┃    F7     ┃    F8     ┃    F9     ┃   HOME    ┃   ┃    END    ┃     7     ┃     8     ┃     9     ┃     0     ┃    ESC    ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃    WIN    ┃    F10    ┃  TO BASE  ┃   ┃           ┃   SPACE   ┃   ENTER   ┃
+            //                                     ┃    WIN    ┃    F10    ┃  TO BASE  ┃   ┃   CTRL    ┃   SPACE   ┃   ENTER   ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
             &kp TAB    &kp F1   &kp F2  &kp F3  &kp PG_UP     &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp TAB
             &kp LCTRL  &kp F4   &kp F5  &kp F6  &kp PG_DN     &kp MINUS  &kp N4  &kp N5  &kp N6  &trans
 &kp LSHIFT  &kp ESC    &kp F7   &kp F8  &kp F9  &kp HOME      &kp END    &kp N7  &kp N8  &kp N9  &kp N0  &kp ESC
-                              &kp LGUI  &kp F10  &to BASE   &trans  &kp SPACE  &kp ENTER
+                              &kp LGUI  &kp F10  &to BASE   &kp LCTRL  &kp SPACE  &kp ENTER
             >;
         };
     };
